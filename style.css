@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.music-player-widget {
+  background-color: #1a1a1a; /* Original charcoal gray background */
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.track-info {
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.player-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.control-btn {
+  background-color: #e50914; /* Original red accent buttons */
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.control-btn:hover {
+  background-color: #b20710;
+}

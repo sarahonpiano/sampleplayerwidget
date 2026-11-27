@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player Widget</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="music-player-widget">
+    <div class="track-info">
+      <span class="track-title">Featured Single - Song Name</span>
+    </div>
+
+    <audio id="audio" src="song.mp3" preload="metadata"></audio>
+
+    <div class="player-controls">
+      <button id="play-btn" class="control-btn">Play</button>
+      <button id="pause-btn" class="control-btn" style="display: none;">Pause</button>
+      <button id="stop-btn" class="control-btn">Stop</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
